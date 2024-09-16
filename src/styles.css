@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    -webkit-font-smoothing: auto;
+    -moz-font-smoothing: auto;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: auto;
+    text-rendering: optimizeLegibility;
+    font-smooth: always;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+  }
+  .output{
+      background-color: aliceblue;
+      margin:20px 10px;
+      width:160px;
+      height:140px;
+      padding:8px;
+      padding-left:20px
+  }
+  .entire-div{
+      display:flex;
+      flex-wrap:wrap;
+  }
+  .box{
+      display:flex;
+      flex-direction:column;
+      width:150px;
+      padding:20px;
+      background-color:beige;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2{
+      background-color:yellow;
+      color:'';
+  }
